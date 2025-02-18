@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+   <meta charset="UTF-8">
+   <title>انشاء حساب</title>
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="index.html" class="logo"> تعليم. </a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="ابحث هنا ..." maxlength="100">
+      </form>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+<!-- القائمة الللي ع الجنب -->
+   <div class="profile">
+      <img src="images/pic-10.png" class="image" alt="">
+      <h3 class="name">اسم الطالب</h3>
+      <p class="role">طالب</p>
+      
+   </div>
+<!-- القائمة الللي ع الجنب -->
+   <nav class="navbar">
+      <a href="index.html"><span>الرئيسية </span></a>
+      <a href="about.html"><span>حولنا</span></a>
+      <a href="courses.html"><span>الدروس</span></a>
+      <a href="teachers.html"><span>المعلمين</span></a>
+      <a href="contact.html"><span>اتصل بنا</span></a>
+   </nav>
+
+</div>
+
+<section class="form-container">
+
+   <form action="" method="post" enctype="multipart/form-data">
+      <h3>سجل الان</h3>
+      <p>الاسم <span>*</span></p>
+      <input type="text" name="name" placeholder="ادخال الاسم" required maxlength="50" class="box">
+      <p>البريد الالكتروني <span>*</span></p>
+      <input type="email" name="email" placeholder="ادخال البريد الالكتروني" required maxlength="50" class="box">
+      <p> كلمة المرور<span>*</span></p>
+      <input type="password" name="pass" placeholder="ادخال كلمة المرور" required maxlength="20" class="box">
+      <p>تاكيد كلمة المرور <span>*</span></p>
+      <input type="password" name="c_pass" placeholder="تاكيد كلمة المرور" required maxlength="20" class="box">
+      <p>اختيار الصورة الشخصية <span>*</span></p>
+      <input type="file" accept="image/*" required class="box">
+      <input type="submit" value="انشاء حساب" name="submit" class="btn">
+   </form>
+
+</section>
+
+<footer class="footer">
+   <span> 2025 by College Of Electronic Technology  |  all rights reserved</span>
+ </footer>
+   
+</body>
+</html>
