@@ -803,7 +803,7 @@ section{
    font-size: 2rem;
    padding:2.5rem 2rem;
    color:var(--black);
-   margin-top: 1rem;
+   margin-top: 5rem;
    z-index: 1000;
 }
 
@@ -848,27 +848,6 @@ section{
       padding: 2rem;
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
       transition: .2s linear;
-   }
-
-}
-
-@media (max-width:450px){
-
-   html{
-      font-size: 50%;
-   }
-
-   .flex-btn{
-      gap: 0;
-      flex-flow: column;
-   }
-
-   .home-grid .box-container{
-      grid-template-columns: 1fr;
-   }
-
-   .about .row .image img{
-      height: 25rem;
    }
 
 }
